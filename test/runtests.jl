@@ -8,7 +8,7 @@ using JET
         Aqua.test_all(PiggyBack)
     end
     @testset "Code linting (JET.jl)" begin
-        JET.test_package(PiggyBack; target_defined_modules = true)
+        JET.test_package(PiggyBack; target_defined_modules=true)
     end
     # Write your tests here.
 end
